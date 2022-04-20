@@ -1,0 +1,47 @@
+npm install express
+npm install babel-cli babel-preset-stage-0 babel-preset-es2015 --save-dev
+
+// Global dependencies
+// Las dependencias globales se encuentran en %AppData%\npm\node_modules
+
+// sudo npm install -g react
+npm install -g react
+npm install create-react-app -g
+
+// Updating package
+npm install eslint@5.2.0 -g
+npm outdated
+npm outdated -g
+// npm update eslint
+npm install eslint -g
+
+// Removing
+npm uninstall babel-preset-es2015
+npm install babel-preset-env --save-dev
+
+// Cache
+npm cache verify
+npm cache clean --force // No funciona
+
+// Audit
+//npm -v
+//npm install npm -g
+npm install socketio
+npm audit
+npm audit fix
+
+// Scripting (https://docs.npmjs.com/cli/v8/using-npm/scripts)
+npm install nodemon
+// Cambiar el script
+npm start
+npm run nodemonthis
+
+// NPX
+npx -p @angular/cli ng new myapp
+npx mocha
+npx cowsay hello!
+npm run createang
+
+// YARN
+npx yarn
+npx -p better-npm-install ni
